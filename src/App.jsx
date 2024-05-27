@@ -60,6 +60,20 @@ function App() {
     try{
        await userSchema.validate(formdata,{abortEarly:false});
        console.log(formdata)
+       alert('Form submitted successfully ')
+       setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phoneNumber: "",
+        password: "",
+        confirmPassword: "",
+        age: "",
+        gender: "",
+        interests: [],
+        birthDate: "",
+      })
+       
     }catch(error){
       console.log(error.inner);
       let newErr = {}
