@@ -1,0 +1,15 @@
+#root {
+  
+}
+form>div{
+    margin-bottom: 1rem;
+}
+form>div>label{
+    font-weight: 900;
+    margin-right: 1rem;
+    text-transform: capitalize;
+}
+.errors{
+    color: red;
+}
+
