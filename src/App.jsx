@@ -1,6 +1,7 @@
 import { React} from "react";
 import "./App.css";
-import Todo from "./components/Todo";
+import Yup from './Yup.jsx'
+
 
 
 
@@ -10,7 +11,7 @@ function App() {
    
   return (
     <>
-    <Todo/>
+    <Yup/>
 
 
    
