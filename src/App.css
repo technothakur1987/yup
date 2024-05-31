@@ -12,4 +12,37 @@ form>div>label{
 .errors{
     color: red;
 }
+.addTaskDiv{
+    width: fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 14px 6px rgb(235, 231, 231);
+}
+#addTask{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 40vw;
+}
+.TaskLi{
+    background-color: rgb(0, 140, 255, 0.3);
+    width: 40vw;
+}
+.delBtn{
+    outline: none;
+    border: none;
+}
+.clearBtn{
+    outline: none;
+    border: none;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+}
+.clearBtn:hover,
+.clearBtn:active,
+.clearBtn:focus,
+.clearBtn:visited {
+    background-color: green !important;
+    color: white !important;
+}
 
