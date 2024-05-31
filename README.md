@@ -30,3 +30,6 @@ Age: Must be between 18 and 100.
 Gender: Required field.
 Interests: At least one interest must be selected.
 Birth Date: Valid date and required field.
+
+
+Live Link :https://yupreact19.netlify.app/
